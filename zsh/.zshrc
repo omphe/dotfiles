@@ -48,6 +48,11 @@ export PATH=/usr/local/bin:/opt/local/bin:/opt/local/sbin:$PATH
 export MANPATH=/opt/local/share/man:$MANPATH
 export EDITOR=vim
 
+# Keep 1000 lines of history within the shell and save it to ~/.zsh_history:
+HISTSIZE=1000
+SAVEHIST=1000
+HISTFILE=~/.zsh_history
+
 # Set up Golang
 export GOPATH=$HOME/Code/go_workspace
 export PATH=$PATH:$(go env GOPATH)/bin

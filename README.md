@@ -3,12 +3,27 @@
 To engage any of the dotfiles in this repository, simply enter the .dotfiles directory and run `stow <directory name>`
 
 
-## Manual steps 
+## Setup
 
-After cloning this repository into a fresh shell, a couple of manual steps need to be performed:
+Clone this repository with:
 
-- Pull down Vundle with: git clone  https://github.com/VundleVim/Vundle.vim.git
-- Perform an update of all plugins using:  vim +PluginInstall +qall
+`git clone git@github.com:omphe/dotfiles.git .dotfiles`
+
+### Vim
+
+Install Vundle locally with:
+
+`git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim`
+
+Perform an update of all plugins using:  
+
+`vim +PluginInstall +qall`
+
+Further help with Vundle can be found on the Vundle [Quick Start instructions](https://github.com/VundleVim/Vundle.vim#quick-start)
+
+### Tmux
+
+To make best use of tmux in all shells, set your Terminal to run `tmux attach` at startup
 
 ## Customisations
 
