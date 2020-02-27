@@ -5,3 +5,6 @@ emacs.d/auto-save-list/*
 
 # OS files
 .DS_Store
+
+# vendor libraries
+vim/.vim/bundle
