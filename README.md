@@ -1,4 +1,4 @@
-# dotfiles repository for all omphe activities
+# dotfiles
 
 To engage any of the dotfiles in this repository, simply enter the .dotfiles directory and run `stow <directory name>`
 
@@ -28,3 +28,9 @@ To make best use of tmux in all shells, set your Terminal to run `tmux attach` a
 ## Customisations
 
 Any account specific aliases for ZSH, eg job/personal aliases should be created in the user's $HOME directory and will be sourced by the .zshrc in this repository.  Simply create the file and it'll be sourced on launch.  
+
+## Further Reading
+
+Good inspiration to be found at:
+
+- [dotfiles.github.com](https://dotfiles.github.io/)
