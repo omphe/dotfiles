@@ -1,7 +1,15 @@
 # dotfiles
 
-To engage any of the dotfiles in this repository, simply enter the .dotfiles directory and run `stow <directory name>`
+To use these dotfiles, install GNU `stow` with your friendly, local package manager.
 
+Then simply:
+
+```bash
+cd <your-dotfiles-directory>
+stow <dotfile directory>
+```
+
+This will symlink the dotfiles found in this repository to your home directory.  Voila, a happy, familiar CLI setup.
 
 ## Setup
 
