@@ -1,0 +1,21 @@
+[alias]
+	st = status
+	ci = commit
+	lg = log --graph --decorate
+	co = checkout
+	rt = !pwd
+[color]
+	diff = auto
+	status = auto
+	branch = auto
+[push]
+	default = simple
+[core]
+	autocrlf = input
+	excludesfile = ~/.gitignore
+	editor = vim
+[commit]
+	template = ~/.gitmessage
+[credential]
+	helper = !aws codecommit credential-helper $@
+	UseHttpPath = true
