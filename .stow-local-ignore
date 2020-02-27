@@ -1,0 +1,6 @@
+# Ignore file for GNU stow command
+
+^/REAMDE.*
+\.gitignore
+\.git
+

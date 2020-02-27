@@ -1,0 +1,7 @@
+# Editor files 
+emacs.d/auto-save-list/*
+*~
+*.swp
+
+# OS files
+.DS_Store
