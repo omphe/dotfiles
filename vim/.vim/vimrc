@@ -5,6 +5,7 @@ set ttyfast
 
 set number
 
+
 " Vundle
 filetype off
 set rtp+=~/.vim/bundle/Vundle.vim
@@ -26,8 +27,8 @@ Plugin 'powerline/powerline', {'rtp': 'powerline/bindings/vim/'}
 Plugin 'reedes/vim-pencil'
 Plugin 'scrooloose/nerdtree'
 Plugin 'scrooloose/syntastic'
-" Plugin 'vim-airline/vim-airline'
-" Plugin 'vim-airline/vim-airline-themes'
+Plugin 'vim-airline/vim-airline'
+Plugin 'vim-airline/vim-airline-themes'
 Plugin 'derekwyatt/vim-scala'
 Plugin 'rodjek/vim-puppet'
 Plugin 'uarun/vim-protobuf'
@@ -49,9 +50,9 @@ set background=dark
 colorscheme solarized
 
 " airline config
-" let g:airline#extensions#tabline#enabled = 1
-" let g:airline_theme='solarized'
-" let g:airline_powerline_fonts = 1
+let g:airline#extensions#tabline#enabled = 1
+let g:airline_theme='solarized'
+let g:airline_powerline_fonts = 1
 
 " powerline setup
 let g:Powerline_symbols = "fancy"
@@ -82,6 +83,16 @@ set spell spelllang=en_gb
 
 " java setup
 autocmd FileType java setlocal omnifunc=javacomplete#Complete:
+
+" golang setup
+set autowrite
+let g:go_highlight_types = 1
+let g:go_highlight_fields = 1
+let g:go_highlight_functions = 1
+let g:go_highlight_operators = 1
+let g:go_highlight_extra_types = 1
+let g:go_highlight_build_constraints = 1
+let g:go_highlight_generate_tags = 1
 
 " templating
 "   worth looking into building functions for the groups
