@@ -29,6 +29,10 @@ Perform an update of all plugins using:
 
 Further help with Vundle can be found on the Vundle [Quick Start instructions](https://github.com/VundleVim/Vundle.vim#quick-start)
 
+Install vim-go support by running from within Vim:
+
+`:GoInstallBinaries` 
+
 ### Tmux
 
 To make best use of tmux in all shells, set your Terminal to run `tmux attach` at startup
