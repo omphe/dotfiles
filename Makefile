@@ -6,6 +6,7 @@ dotfiles:
 	stow git && \
 	stow tmux && \
 	stow vim && \
+	stow Xresources && \
 	stow zsh
 
 
