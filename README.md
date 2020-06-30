@@ -1,6 +1,6 @@
-# dotfiles repository for all omphe activities
+# dotfiles 
 
-To engage any of the dotfiles in this repository, simply enter the .dotfiles directory and run `stow <directory name>`
+To engage any of the dotfiles in this repository, simply enter the .dotfiles directory and run `make`
 
 
 ## Manual steps 
