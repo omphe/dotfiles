@@ -10,4 +10,4 @@ dotfiles:
 
 
 configfiles:
-	stow --target=/home/omphe/.config config 
+	stow --target=$(HOME)/.config config 
